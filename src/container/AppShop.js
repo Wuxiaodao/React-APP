@@ -9,9 +9,10 @@ export default class AppShop extends Component {
                 <NavBar
                 style={{background:'#3fcccb',color:'#fffb'}}
       rightContent={[
-        <Icon key="0" type="search" style={{ marginRight: '16px' }} />,
+        <Icon key="0" type="search" style={{ marginRight: '16px'}} />,
       ]}
     >商城</NavBar>
+    
    
    <Carousel
           autoplay
@@ -20,11 +21,7 @@ export default class AppShop extends Component {
           afterChange={index => console.log('slide to', index)}
         >
           {[1,2,3,4].map(val => (
-            <a
-              key={val}
-              href="http://www.alipay.com"
-              
-            >
+            
               <img
                 src={'./03.png'}
                 alt=""
@@ -36,12 +33,12 @@ export default class AppShop extends Component {
                   
                 }}
               />
-            </a>
+           
           ))}
         </Carousel>
-    <div style={{float:'left',marginTop:'-13.6em',position:'absolute'}}>
-        <img src={`./sousuo.png`} alt=''/>
-        <input type='text' placeholder='输入关键字搜索' style={{width:'21em',height:'3em',opacity:'0.5',marginTop:'-4.5em',position:'relative',float:'left',marginLeft:'5em'}}></input>
+    <div style={{float:'left',marginTop:'-51%',position:'absolute',width:'100%'}}>
+        <img style={{width:'100%'}} src={`./sousuo.png`} alt=''/>
+        <input type='text' placeholder='🔍输入关键字搜索' style={{width:'80%',opacity:'0.5',marginTop:'-8.5%',position:'relative',float:'left',marginLeft:'13%'}}></input>
     </div>
     <div style={{float:'left',width:'100%'}}>
         <img style={{float:'left',width:'10%',marginLeft:'8%',marginTop:'1em'}} src={`./zhuo.png`} alt=''/>
@@ -79,6 +76,7 @@ export default class AppShop extends Component {
         <p style={{float:'left',marginLeft:'3%',fontSize:'14px',width:'15%'}}>￥ 39.95</p>
         <p style={{float:'left',marginLeft:'33%',fontSize:'14px',width:'15%'}}>￥ 83.99</p>
     </div>
+    
     
     
      </div>

@@ -19,11 +19,7 @@ export default class AppHome extends Component {
           afterChange={index => console.log('slide to', index)}
         >
           {[1,2].map(val => (
-            <a
-              key={val}
-              href="http://www.alipay.com"
-              
-            >
+            
               <img
                 src={'./images/'+val+'.jpg'}
                 alt=""
@@ -35,7 +31,7 @@ export default class AppHome extends Component {
                   
                 }}
               />
-            </a>
+           
           ))}
         </Carousel>
     

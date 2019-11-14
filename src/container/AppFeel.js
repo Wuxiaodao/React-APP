@@ -7,7 +7,6 @@ const tabs = [
     { title: '小清新' },
     { title: '小户型' },
     { title: '个性色彩' },
-    { title: '+' },
   ];
 export default class AppFeel extends Component {  
     render() {
@@ -31,6 +30,15 @@ export default class AppFeel extends Component {
     alt=''
     />
     <img style={{width:'45%',float:'left',marginLeft:'4%',marginTop:'-8em'}} src={`./images/t2.png`}
+    alt=''
+    />
+    
+    </div>
+    <div style={{float:'left',width:'100%'}}>
+    <img style={{width:'45%',float:'left',marginLeft:'3%',marginTop:'2em'}} src={`./images/t3.png`}
+    alt=''
+    />
+    <img style={{width:'45%',float:'left',marginLeft:'4%',marginTop:'2em'}} src={`./images/t4.png`}
     alt=''
     />
     

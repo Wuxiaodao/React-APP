@@ -6,11 +6,11 @@ export default class AppMy extends Component {
         return (  
             <div>
                 <NavBar
-                style={{background:'#3fcccb',color:'#fff'}}
+                style={{background:'#3fcccb',color:'white'}}
       rightContent={[
         <Icon key="0" type="search" style={{ marginRight: '16px' }} />,
       ]}
-    >住吧家居</NavBar>
+    >我的</NavBar>
    
             </div>
         )
